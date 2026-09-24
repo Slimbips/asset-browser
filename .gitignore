@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.env
+.env.*
+
+# Local machine config (game install / Unreal project absolute paths)
+paths.json
+
+# Game archives and extracted dumps
+*.pk3
+*.tga
+*.fbx
+*.uasset
+*.umap
+*.uexp
+*.ubulk
+*.uptnl
+
+# Local convert caches and run dumps
+export/
+export_*.json
+*.fbm/
+*.glb
+tools/*_report.json
+tools/*_report.md
+
+# Unreal Engine generated
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+Build/
+
+# Local Unreal projects / uasset trees
+MohaaNoob/
+
+# Editor
+.cursor/
+.vscode/
